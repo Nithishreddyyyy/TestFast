@@ -4,4 +4,4 @@ app = FastAPI()
 
 @app.get("/")
 async def DeploymentCheck():
-    return "The deployment is successful"
+    return "The deployment is successful and Manya is a Maniac"
